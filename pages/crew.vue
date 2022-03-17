@@ -42,7 +42,7 @@ export default {
       this.crew = await response.json()
     },
     setMember(value) {
-      this.active = value
+      this.active = valu
     },
   },
   mounted() {
